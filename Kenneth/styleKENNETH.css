@@ -149,5 +149,6 @@ caption {
     border:2px solid;
     border-color:rgb(255, 255, 255);
     list-style-type: none;
+    text-align: center;
 
 }
