@@ -10,6 +10,7 @@ h1 {
     box-shadow: 5px 5px rgb(180, 180, 180);
     border:2px solid;
     border-color:rgb(255, 255, 255);
+
 }
 
 h2 {
@@ -26,10 +27,10 @@ h2 {
     box-shadow: 5px 5px rgb(180, 180, 180);
     border:2px solid;
     border-color:rgb(255, 255, 255);
+
 }
 
-.mafp 
-{
+.mafp {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-right:auto;
     margin-left:auto;
@@ -41,10 +42,10 @@ h2 {
     box-shadow: 5px 5px rgb(180, 180, 180);
     border:2px solid;
     border-color:rgb(255, 255, 255);
+
 }
 
-.paragraph
-{
+.paragraph {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
     margin-right:auto;
@@ -57,10 +58,10 @@ h2 {
     box-shadow: 5px 5px rgb(180, 180, 180);
     border:2px solid;
     border-color:rgb(255, 255, 255); 
+
     }
 
-.mafpv2
-{
+.mafpv2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     margin-right:auto;
@@ -72,5 +73,40 @@ h2 {
     border-radius:10px;
     box-shadow: 5px 5px rgb(180, 180, 180);
     border:2px solid;
-    border-color:rgb(255, 255, 255);  
+    border-color:rgb(255, 255, 255); 
+     
+}
+
+table {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    border-collapse: collapse;
+    background-color: rgb(100, 1, 7);
+}
+
+td, th {
+    border: 2px solid rgb(136, 64, 64);
+    text-align: left;
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(136, 64, 64);
+}
+
+caption {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom:10px;
+    width:50%;
+    background-color:rgb(100, 1, 7);;
+    padding:15px;
+    border-radius:10px;
+    box-shadow: 5px 5px rgb(180, 180, 180);
+    border:2px solid;
+    border-color:rgb(255, 255, 255);
+    
 }
