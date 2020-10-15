@@ -172,10 +172,8 @@ caption {
 .mainpage { 
     margin: auto;
     width: 80%;
-    border-left: 3px solid;
-    border-right: 3px solid;
-    color: white;
-    background-color: green;
+    color: rgb(255, 255, 255), 255);
+    background-color: rgb(23, 23, 75);
 } 
 
 * {
@@ -184,7 +182,8 @@ caption {
 }
 
 header {
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(254,0,0,1) 100%);
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 100%);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     margin-bottom: 50px;
@@ -244,16 +243,17 @@ footer img {
   .dropdown:hover .dropbtn {
     background-color: #3e8e41;
   }
-
+/*
   .menycolor { 
       background-color: white;
   }
-
+*/
   .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://thumbs.gfycat.com/AnguishedComplicatedBlackpanther-size_restricted.gif");
-    height: 50%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://media2.giphy.com/media/3o7WIASlkxldyLOpfq/source.gif");
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+
   }
