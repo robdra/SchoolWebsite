@@ -135,6 +135,8 @@ caption {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
+    
 }
 
 .avatar {
@@ -152,5 +154,6 @@ caption {
     border-color:rgb(255, 255, 255);
     list-style-type: none;
     text-align: center;
-
+    
 }
+
