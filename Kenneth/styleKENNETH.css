@@ -135,7 +135,6 @@ caption {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
     
 }
 
@@ -145,7 +144,8 @@ caption {
     margin-right:auto;
     margin-left:auto;
     margin-bottom:10px;
-    width:25%;
+    width: 65%;
+    height:10%;
     background-color:rgb(100, 1, 7);
     padding:15px;
     border-radius:10px;
@@ -154,6 +154,16 @@ caption {
     border-color:rgb(255, 255, 255);
     list-style-type: none;
     text-align: center;
-    
 }
 
+.column {
+    float: left;
+    width: 32.2%;
+    padding: 5px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
