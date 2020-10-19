@@ -224,6 +224,7 @@ footer img {
     font-size: 16px;
     border: none;
     cursor: pointer;
+<<<<<<< HEAD
   }
   
   .dropdown {
@@ -257,35 +258,43 @@ footer img {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+=======
+}
+>>>>>>> 0ff6d7d5eb61e481496619ad712f38ba94ca06c4
   
-  .dropdown:hover .dropbtn {
-    background-color: rgb(100, 1, 7);
-  }
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 30px;
+  margin-right: 30px;
+}
 
-  .menycolor { 
-    background-color: black;
-    margin: auto;
-    width: 600px;
-  }
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
 
-  .hero-image {
-    background-image: url("https://media2.giphy.com/media/3o7WIASlkxldyLOpfq/source.gif");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+}
 
-  }
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
 
-  nav {
-    position: sticky;
-    top: 0px;
-    margin: 0 auto;
-    background-color: black;
-    margin-bottom: 30px;
-  }
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
+<<<<<<< HEAD
   .image {
     width: 800px;
     height: 500px;
@@ -293,3 +302,34 @@ footer img {
     margin: auto;
     
     }
+=======
+.dropdown:hover .dropbtn {
+  background-color: rgb(100, 1, 7);
+}
+.menycolor { 
+    background-color: black;
+    margin: auto;
+    width: 600px;
+}
+.hero-image {
+  background-image: url("https://media2.giphy.com/media/3o7WIASlkxldyLOpfq/source.gif");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+nav {
+  position: sticky;
+  top: 0px;
+  margin: 0 auto;
+  background-color: black;
+  margin-bottom: 30px;
+}
+.image {
+  width: 60%;
+  align-content: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  }
+>>>>>>> 0ff6d7d5eb61e481496619ad712f38ba94ca06c4
