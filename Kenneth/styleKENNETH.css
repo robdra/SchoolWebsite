@@ -284,8 +284,7 @@ footer img {
   }
 
   .image {
-    height:440;
-    width:800;
+    width: 100%;
     display: block;
     margin:auto;
     
