@@ -284,13 +284,16 @@ footer img {
   background-size: cover;
   position: relative;
 }
+
 nav {
   position: sticky;
   top: 0px;
   margin: 0 auto;
   background-color: black;
   margin-bottom: 30px;
+  z-index: 5;
 }
+
 .image {
   width: 60%;
   align-content: center;
@@ -329,4 +332,16 @@ nav img {
 
 .learn:nth-child(odd) {
   background-color: rgb(136, 64, 64);
+}
+
+.zoomavatar {
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+.zoomavatar:hover {
+  -ms-transform: scale(1.8); /* IE 9 */
+  -webkit-transform: scale(1.8); /* Safari 3-8 */
+  transform: scale(1.8); 
+
 }
