@@ -323,10 +323,10 @@ nav img {
 }
 
 .learn:nth-child(even)  {
-  background-color:grey ;
+  background-color:rgb(102, 102, 102) ;
 
 }
 
 .learn:nth-child(odd) {
-  background-color: blue;
+  background-color: rgb(136, 64, 64);
 }
