@@ -83,12 +83,13 @@ body {
       background-color: rgb(100, 1, 7);
       border: 2px solid;
       border-color: white;
+      overflow: scroll;
+      width: 50%;
   }
   
   td, th {
       border: 2px solid rgb(136, 64, 64);
       text-align: left;
-      padding: 10px 30px 10px 30px;
       text-align: center;
   }
   
@@ -280,7 +281,7 @@ body {
   }
   .image {
     width: 60%;
-    align-content: center;
     margin-left: 50%;
     transform: translateX(-50%);
     }
+
