@@ -278,7 +278,8 @@ body {
   .menycolor { 
       background-color: black;
       margin: auto;
-      width: 600px;
+      width: 800px;
+      text-align: center;
   }
   .hero-image {
     background-image: url("https://media2.giphy.com/media/3o7WIASlkxldyLOpfq/source.gif");
@@ -340,4 +341,42 @@ body {
     position: relative;
     margin-top: 90px;
   }
+
+  .youtube {
+  font-size: 16px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  width:53%;
+  height: 53%;
+  background-color:rgb(100, 1, 7);
+  padding:30px;
+  border-radius:10px;
+  box-shadow: 5px 5px rgb(180, 180, 180);
+  border:2px solid;
+  border-color:rgb(255, 255, 255); 
+  
+}
+  
+.video {
+  margin-left: 50%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transform: translateX(-50%);
+  width: 560px;
+  height: 315px;
+}
+
+.zoomavatar {
+  transition: transform .2s;
+  margin: 0 auto;
+}
+
+.zoomavatar:hover {
+  -ms-transform: scale(1.8); /* IE 9 */
+  -webkit-transform: scale(1.8); /* Safari 3-8 */
+  transform: scale(1.8); 
+
+}
 
