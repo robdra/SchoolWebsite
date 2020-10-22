@@ -1,5 +1,7 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(0deg, rgba(106, 13, 13, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    color: white;
   }
   
   h1 {
@@ -15,6 +17,10 @@ body {
       border-color:rgb(255, 255, 255);
       text-align: center;
   
+  }
+
+  #info1 {
+    color: white;
   }
   
   h2 {
@@ -32,6 +38,10 @@ body {
       border-color:rgb(255, 255, 255);
       text-align: center;
   
+  }
+
+  li {
+    margin: 10px;
   }
   
   .mafp {
