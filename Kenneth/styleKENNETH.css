@@ -276,6 +276,8 @@ footer img {
     margin: auto;
     width: 600px;
 }
+
+/* GIF HEADER */
 .hero-image {
   background-image: url("https://media2.giphy.com/media/3o7WIASlkxldyLOpfq/source.gif");
   height: 100%;
@@ -285,6 +287,7 @@ footer img {
   position: relative;
 }
 
+/* NAV HEADER -!- (Z-INDEX SÅ ATT BILDERNA INTE HAMNAR ÖVER NAV) */
 nav {
   position: sticky;
   top: 0px;
