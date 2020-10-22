@@ -325,3 +325,9 @@ body {
   .learn:nth-child(odd) {
     background-color: rgb(136, 64, 64);
   }
+
+  .anchor {
+    position: relative;
+    margin-top: 90px;
+  }
+
