@@ -182,6 +182,12 @@ caption {
     padding: 5px;
   }
 
+.anchor {
+    position: relative;
+    margin-bottom: 90px;
+  }
+
+
 .row::after {
     content: "";
     clear: both;
@@ -197,6 +203,7 @@ caption {
     border-left: 2px solid;
     border-right: 2px solid;
 } 
+
 
 * {
     margin: 0;
