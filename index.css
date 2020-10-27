@@ -1,6 +1,10 @@
+html{
+  font-size: 100%;
+}
+
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: linear-gradient(0deg, rgba(106, 13, 13, 1) 0%, rgba(0, 0, 0, 1) 100%);
+     background: linear-gradient(0deg, rgba(106, 13, 13, 1) 0%, rgba(0, 0, 0, 1) 100%); 
     color: white;
   }
   
@@ -30,7 +34,7 @@ body {
       margin-bottom:30px;
       margin-top: 110px;
       width:56%;
-      background-color:rgb(100, 1, 7);;
+      background-color:rgb(100, 1, 7);
       padding:15px;
       border-radius:10px;
       box-shadow: 5px 5px rgb(180, 180, 180);
@@ -48,7 +52,7 @@ body {
       margin-right:auto;
       margin-left:auto;
       margin-bottom:30px;
-      width: 52%;
+      width: 75%;
       background-color:rgb(100, 1, 7);
       padding: 40px;
       border-radius:10px;
@@ -59,11 +63,11 @@ body {
   }
   
   .paragraph {
-      font-size: 16px;
+      font-size: 1.5rem;
       margin-right: auto;
       margin-left: auto;
       margin-bottom:30px;
-      width:54%;
+      width:75%;
       background-color:rgb(100, 1, 7);
       padding:30px;
       border-radius:10px;
@@ -74,11 +78,11 @@ body {
   }
   
   .paragraph2 {
-    font-size: 16px;
+    font-size: 1.5rem;
     margin-right: auto;
     margin-left: auto;
     margin-bottom:30px;
-    width:54%;
+    width:75%;
     background-color:rgb(100, 1, 7);
     padding:30px;
     border-radius:10px;
@@ -89,8 +93,7 @@ body {
   }
   
   .paragraph2 img {
-    width: 400px;
-    height: 210px;
+    width: 300px;
     padding: 10px;
   }
   
@@ -99,7 +102,7 @@ body {
       margin-right:auto;
       margin-left:auto;
       margin-bottom:50px;
-      width:50%;
+      width:75%;
       background-color:rgb(100, 1, 7);
       padding:50px;
       border-radius:10px;
@@ -180,12 +183,6 @@ body {
       text-align: center;
   }
   
-  .column {
-      float: left;
-      width: 32.2%;
-      padding: 5px;
-  }
-  
   .row::after {
       content: "";
       clear: both;
@@ -195,6 +192,7 @@ body {
   
   .mainpage { 
       margin: auto;
+      justify-content: center;
       width: 80%;
       color: white;
       background-color: rgb(70, 70, 70);
@@ -241,7 +239,7 @@ body {
     position: relative;
     display: inline-block;
     margin-left: 30px;
-    margin-right: 30px;
+    flex-direction: row;
   }
   
   .dropdown-content {
@@ -278,8 +276,9 @@ body {
   .menycolor { 
       background-color: black;
       margin: auto;
-      width: 800px;
+      width: 80%;
       text-align: center;
+      display: flex;
   }
   .hero-image {
     background-image: url("https://media2.giphy.com/media/3o7WIASlkxldyLOpfq/source.gif");
@@ -306,13 +305,6 @@ body {
   
   footer {
     margin-top: 200px;
-  }
-  
-  nav img {
-    width: 200px;
-    height: 40px;
-    float: left;
-    padding: 5px;
   }
   
   .zoom {
@@ -342,7 +334,7 @@ body {
     margin-top: 90px;
   }
 
-  .youtube {
+.youtube {
   font-size: 16px;
   margin-right: auto;
   margin-left: auto;
@@ -356,16 +348,12 @@ body {
   box-shadow: 5px 5px rgb(180, 180, 180);
   border:2px solid;
   border-color:rgb(255, 255, 255); 
-  
 }
   
 .video {
-  margin-left: 50%;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  transform: translateX(-50%);
-  width: 560px;
-  height: 315px;
+  width: 55%;
+  margin: 10px auto;
+  display: block;
 }
 
 .zoomavatar {
@@ -380,3 +368,45 @@ body {
 
 }
 
+nav img {
+  display: none;
+  width: 200px;
+  height: 40px;
+  float: left;
+  padding: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  nav img {
+    display:block;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  } 
+
+  .column {
+    flex-direction: row;
+    width: 150px;
+  }
+
+  .paragraph2 img {
+    width: 300px;
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width: 1024px)
+{
+  .paragraph2 img {
+    width: 400px;
+    padding: 10px;
+  }
+}
